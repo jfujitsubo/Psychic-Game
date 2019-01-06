@@ -39,8 +39,8 @@ var reset = function() {
     changeLetterGuess();
     changeGuessesLeft();
     changeCurrentGuesses();
-    )
-}
+    
+};
 
 changeLetterGuess();
 changeGuessesLeft();
@@ -53,7 +53,7 @@ document.onkeyup = function(event) {
     if(isGuessLetter===false) {
         return false;
     } else if (isGuessLetter===true) {
-        guessesLeft---;
+        guessesLeft--;
         guessedLetters.push(userGuess);
         changeGuessesLeft();
         changeCurrentGuesses();
