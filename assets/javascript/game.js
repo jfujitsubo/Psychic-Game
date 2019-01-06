@@ -16,7 +16,7 @@ var letterGuess = null;
 //random letter gen
 var randomLetterGen = randomLetter[Math.floor(Math.random()* randomLetter.length)];
 
-//allowing 9 guesses
+//allowing 10 guesses
 function changeGuessesLeft(){
     document.querySelector('#guessesLeft').innerHTML = "Guesses Left: " + guessesLeft;
 };
